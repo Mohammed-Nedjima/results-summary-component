@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --color-primary-light-red: hsl(0, 100%, 67%);
+    --color-primary-orangey-yellow: hsl(39, 100%, 56%);
+    --color-primary-green-teal: hsl(166, 100%, 37%);
+    --color-primary-cobalt-blue: hsl(234, 85%, 45%);
+
+    --color-gradient-light-slate-blue: hsl(252, 100%, 67%);
+    --color-gradient-light-royal-blue: hsl(241, 81%, 54%);
+    --color-gradient-violet-blue: hsla(256, 72%, 46%, 1);
+    --color-gradient-persian-blue: hsla(241, 72%, 46%, 0);
+
+    --color-neutral-white: hsl(0, 0%, 100%);
+    --color-neutral-pale-blue: hsl(221, 100%, 96%);
+    --color-neutral-light-lavender: hsl(241, 100%, 89%);
+    --color-neutral-dark-gray-blue: hsl(224, 30%, 27%);
+  }
+}
+
+:root {
+  font-family: "Hanken Grotesk", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color-scheme: light;
+  font-synthesis: none;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 18px;
+}
